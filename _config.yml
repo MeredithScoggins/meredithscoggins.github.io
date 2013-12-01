@@ -1,0 +1,4 @@
+name: Coats and Kahvi
+markdown: redcarpet
+pygments: true
+paginate: 5 

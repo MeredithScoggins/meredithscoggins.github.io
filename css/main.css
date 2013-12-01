@@ -1,0 +1,253 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { 
+  color: gray; 
+  text-decoration: none;
+}
+a:hover   { 
+  color: black; 
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+
+ul.posts {
+  list-style-type: none;
+  font-size: 100%;
+  text-align: justify;
+  width: 970px;
+  margin: 3em auto 2em auto;
+  line-height: 1.5em;
+}
+
+ul.posts li {
+  line-height: 1.75em;
+}
+
+ul.posts span {
+  color: #aaa;
+  font-family: 'Cinzel', serif;  
+}
+
+ul.posts span.title {
+  font-size: 150%;
+}
+
+ul.posts span.date {
+  font-size: 80%;
+}
+
+ul.posts p {
+  font-family: 'Forum', normal;
+  color: gray;
+  width: 850px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  font-size: 115%;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+.site .header .banner {
+  display: block;
+  margin: auto;
+  margin-top: 0.75em;
+  margin-bottom: 0.5em;
+  font-size: 600%;
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+}
+
+.site .header .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.site .header .nav li {
+    display: inline;
+}
+
+.site .header .nav a {
+    display: inline-block;
+    padding: 6px;
+    font-family: 'Cinzel', serif;
+    font-size: 105%; 
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+/* standard */
+
+.post {
+  font-size: 100%;
+  text-align: justify;
+  width: 970px;
+  margin: 3em auto 2em auto;
+  line-height: 1.5em;
+}
+
+.post .title, .post .meta{
+  color: #aaa;
+  font-family: 'Cinzel', serif;  
+}
+
+.post .title {
+  font-size: 150%;
+}
+
+.post .meta {
+  font-size: 80%;
+}
+
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post li {
+  list-style-type: none;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+.post p {
+  font-family: 'Forum', normal;
+  color: gray;
+  width: 850px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
+
+/*****************************************************************************/
+/*
+/* Travel
+/*
+/*****************************************************************************/
+
+.travel {
+  font-size: 115%;
+  text-align: justify;
+  width: 970px;
+  margin: 3em auto 2em auto;
+  line-height: 1.5em;
+}
+
+.travel li {
+  list-style: none;
+}
+
+/*****************************************************************************/
+/*
+/* About
+/*
+/*****************************************************************************/
+
+.about {
+  font-size: 100%;
+  text-align: justify;
+  width: 970px;
+  margin: 3em auto 2em auto;
+  line-height: 1.5em;
+}
+
+.about img {
+  width: 100%;
+  height: auto;
+}
+
+/* Pagination
+-------------------------------------------------- */
+
+.pagination {
+  overflow: hidden; /* clearfix */
+  margin-top: 40px;
+  font-weight: bold;
+  color: #ccc;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+.pagination a,
+.pagination span {
+  float: left;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+}
+.pagination a:first-child,
+.pagination span:first-child {
+  border-right: 1px solid #eee;
+}
+.pagination a:hover {
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
