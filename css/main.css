@@ -182,16 +182,6 @@ ul.posts p {
   border: none;
 }
 
-.post a {
-  color: #aaa;
-  font-family: 'Cinzel', serif;  
-  font-size: 80%;
-}
-
-.post a:hover {
-  color: black;
-}
-
 .post p {
   font-family: 'Forum', normal;
   color: gray;
