@@ -70,6 +70,16 @@ ul.posts span.date {
   font-size: 80%;
 }
 
+ul.posts a {
+  color: #aaa;
+  font-family: 'Cinzel', serif;  
+  font-size: 80%;
+}
+
+ul.posts a:hover {
+  color: black;
+}
+
 ul.posts p {
   font-family: 'Forum', normal;
   color: gray;
@@ -170,6 +180,16 @@ ul.posts p {
 
 .post pre code {
   border: none;
+}
+
+.post a {
+  color: #aaa;
+  font-family: 'Cinzel', serif;  
+  font-size: 80%;
+}
+
+.post a:hover {
+  color: black;
 }
 
 .post p {
