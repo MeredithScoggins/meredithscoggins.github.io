@@ -49,6 +49,10 @@ ul.posts {
   line-height: 1.5em;
 }
 
+ul.posts div.post {
+  padding-bottom: 1em;
+}
+
 ul.posts li {
   line-height: 1.75em;
 }
@@ -128,6 +132,7 @@ ul.posts p {
   width: 970px;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
+  padding-bottom: 1em;
 }
 
 .post .title, .post .meta{
@@ -216,6 +221,15 @@ ul.posts p {
   width: 970px;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
+  padding-bottom: 1em;
+}
+
+.about p {
+  font-family: 'Forum', normal;
+  color: gray;
+  width: 850px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .about img {
