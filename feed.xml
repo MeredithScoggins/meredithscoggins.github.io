@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-        <channel>
-                <title>Coats and Kahvi</title>
-                <description>Meredith and Scott&#39;s Adventures in Finland</description>
-                <link>http://coatsandkahvi.com</link>
-                <atom:link href="http://coatsandkahvi.com/feed.xml" rel="self" type="application/rss+xml" />
+        <title>Coats and Kahvi</title>
+        <description>Meredith and Scott&#39;s Adventures in Finland</description>
+        <link>http://coatsandkahvi.com</link>
+        <atom:link href="http://coatsandkahvi.com/feed.xml" rel="self" type="application/rss+xml" />
                 
-                        <item>
-                                <title>happy thanksgiving</title>
-                                <description>&lt;div class=&quot;image&quot;&gt;
+                <item>
+                        <title>happy thanksgiving</title>
+                        <description>&lt;div class=&quot;image&quot;&gt;
 &lt;img alt=&quot;Preparing the meal&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/12.02.2013/scott_meredith.jpg&quot; width=&quot;970&quot; /&gt;
 &lt;img alt=&quot;Thanksgiving food&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/12.02.2013/rolls_nuts.jpg&quot; width=&quot;970&quot; /&gt;
 &lt;img alt=&quot;Thanksgiving food&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/12.02.2013/cranberries.jpg&quot; width=&quot;970&quot; /&gt;
@@ -17,14 +16,14 @@
 
 &lt;p&gt;I know we&amp;#39;re a little late, but since we don&amp;#39;t get Thanksgiving Day off over here we decided to postpone our Thanksgiving celebration until Sunday.  It was our first year not being with family, which of course was difficult, but we wanted to make it something fun and special anyway so we had our first Friendsgiving!  We invited over some of our good friends that we&amp;#39;ve made here in Finland, and since none of them are from the U.S. (therefore never having celebrated Thanksgiving) we had to do it right.  We spent the entire day Saturday and half of the day Sunday cooking as many traditional Thanksgiving dishes that we could manage.  Green bean casserole, mashed potatoes, homemade rolls, cranberry sauce, pumpkin pie...the works.  The only thing missing was the turkey.  I know, it&amp;#39;s a pretty key piece, but the only turkey we found in Joensuu was about a million dollars, so we opted out.  And even without the turkey and our families, it turned out to be a pretty good Thanksgiving.  Everyone left happy and full, which to me meant that it was a success!  This year we are so thankful for our friends and family back home and for the many new friends and memories that we&amp;#39;ve been able to make here.         &lt;/p&gt;
 </description>
-                                <pubDate>Mon, 02 Dec 2013 16:05:06 +0200</pubDate>
-                                <link>http://coatsandkahvi.com//2013/12/02/happy-thanksgiving.html</link>
-                                <guid isPermaLink="true">http://coatsandkahvi.com//2013/12/02/happy-thanksgiving.html</guid>
-                        </item>
-                
-                        <item>
-                                <title>we got married</title>
-                                <description>&lt;div class=&quot;image&quot;&gt;
+                        <pubDate>Mon, 02 Dec 2013 16:05:06 +0200</pubDate>
+                        <link>http://coatsandkahvi.com//2013/12/02/happy-thanksgiving.html</link>
+                        <guid isPermaLink="true">http://coatsandkahvi.com//2013/12/02/happy-thanksgiving.html</guid>
+                </item>
+        
+                <item>
+                        <title>we got married</title>
+                        <description>&lt;div class=&quot;image&quot;&gt;
 &lt;img alt=&quot;Bridesmaid luncheon&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/bridesmaid+luncheon_group.jpg&quot; width=&quot;970&quot; /&gt;
 &lt;img alt=&quot;Bridesmaid luncheon&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/amy_me_kendall.jpg&quot; width=&quot;970&quot; /&gt;
 &lt;img alt=&quot;Bridesmaid luncheon&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/11.24.13/nonnie_grandma.jpg&quot; width=&quot;970&quot; /&gt;
@@ -44,14 +43,14 @@
 
 &lt;p&gt;Our friends, that we trekked across the world for, hosted a &amp;quot;Hamburg Night&amp;quot; to teach us all about their hometown in Germany.  Since Hamburg is a port city they made all the traditional sailor food for us to try.  Then we watched some videos about their beautiful city.  Definitely on my long list of places I want to visit now.  After spending a week at home it was nice to realize that we do have good friends here too.  &lt;/p&gt;
 </description>
-                                <pubDate>Sun, 24 Nov 2013 16:05:06 +0200</pubDate>
-                                <link>http://coatsandkahvi.com//2013/11/24/we-got-married.html</link>
-                                <guid isPermaLink="true">http://coatsandkahvi.com//2013/11/24/we-got-married.html</guid>
-                        </item>
-                
-                        <item>
-                                <title>the dark days</title>
-                                <description>&lt;div class=&quot;image&quot;&gt;
+                        <pubDate>Sun, 24 Nov 2013 16:05:06 +0200</pubDate>
+                        <link>http://coatsandkahvi.com//2013/11/24/we-got-married.html</link>
+                        <guid isPermaLink="true">http://coatsandkahvi.com//2013/11/24/we-got-married.html</guid>
+                </item>
+        
+                <item>
+                        <title>the dark days</title>
+                        <description>&lt;div class=&quot;image&quot;&gt;
 &lt;img alt=&quot;sunset&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/10.31.2013/sunset1.jpg&quot; width=&quot;970&quot;/&gt;
 &lt;img alt=&quot;sunset&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/10.31.2013/_DSC2056.JPG&quot; width=&quot;970&quot;/&gt;
 &lt;img alt=&quot;sunset&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/10.31.2013/tree_road.jpg&quot; width=&quot;970&quot;/&gt;
@@ -67,14 +66,14 @@
 
 &lt;p&gt;&lt;strong&gt;all photos were taken before 4:30 pm&lt;/strong&gt;&lt;/p&gt;
 </description>
-                                <pubDate>Thu, 31 Oct 2013 16:05:06 +0200</pubDate>
-                                <link>http://coatsandkahvi.com//2013/10/31/the-dark-days.html</link>
-                                <guid isPermaLink="true">http://coatsandkahvi.com//2013/10/31/the-dark-days.html</guid>
-                        </item>
-                
-                        <item>
-                                <title>ice hockey and everything cold</title>
-                                <description>&lt;div class=&quot;image&quot;&gt;
+                        <pubDate>Thu, 31 Oct 2013 16:05:06 +0200</pubDate>
+                        <link>http://coatsandkahvi.com//2013/10/31/the-dark-days.html</link>
+                        <guid isPermaLink="true">http://coatsandkahvi.com//2013/10/31/the-dark-days.html</guid>
+                </item>
+        
+                <item>
+                        <title>ice hockey and everything cold</title>
+                        <description>&lt;div class=&quot;image&quot;&gt;
 &lt;img alt=&quot;hockey&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/10.28.2013/IMG_4570.jpg&quot; width=&quot;970&quot;/&gt;
 &lt;img alt=&quot;hockey fans&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/10.28.2013/IMG_4571.jpg&quot; width=&quot;970&quot;/&gt;
 &lt;/div&gt;
@@ -85,14 +84,14 @@
 
 &lt;p&gt;On another note, it’s cold here.  All the snow that I boasted about before is sadly gone now (thanks to the massive amount of rain that we’ve had), but I did get a chance to practice for the world’s slowest bike rider competition before it left.  Let me tell you, the conditions were just right for it.  There was a bunch of slush on the ground that day.  You’d think “Slush? How hard can it be to glide through some soft snow and water??”  That’s what I thought.  But when that slush is packed on top of a layer of thick, uneven ice, well that makes it a little more challenging.  It usually takes me 20 minutes to ride my bike to school.  On this particular day it took me at least twice as long (which is good statistics for slow competitions).  I was going barely faster than you could walk.  Going that slow on a bike is really a skill.  If you slow down even the slightest, there is a very good chance you will fall over.  But when you are riding on ice, if you speed up at all and hit the tiniest of bumps, there is also a very good chance you will fall over.  So I’m working with this balancing act for over 3 miles.  At one point I considered just collapsing on the snow in hope that someone would come along and rescue me.  But after 29 near wipe outs, I had outsmarted the ice and made it to school.  My feet were soaking wet from the giant puddles that I stepped in (to avoid a fall), but all was good because I made it to shelter.  Of course on my way home some nice snow fairy had come along and plowed all the snow on the sidewalks – so it was smooth sailing.  Compared to my previous riding time, I felt like I was flying down the road.  All the snow is gone now, so bike riding is back to normal.  But when the snow does come back, and it will, I just hope that the snow fairy comes back with it (and is considerate of when I need to go to class).&lt;/p&gt;
 </description>
-                                <pubDate>Mon, 28 Oct 2013 16:05:06 +0200</pubDate>
-                                <link>http://coatsandkahvi.com//2013/10/28/ice-hockey-and-everything-cold.html</link>
-                                <guid isPermaLink="true">http://coatsandkahvi.com//2013/10/28/ice-hockey-and-everything-cold.html</guid>
-                        </item>
-                
-                        <item>
-                                <title>it&#39;s a winter wonderland</title>
-                                <description>&lt;div class=&quot;image&quot;&gt;
+                        <pubDate>Mon, 28 Oct 2013 16:05:06 +0200</pubDate>
+                        <link>http://coatsandkahvi.com//2013/10/28/ice-hockey-and-everything-cold.html</link>
+                        <guid isPermaLink="true">http://coatsandkahvi.com//2013/10/28/ice-hockey-and-everything-cold.html</guid>
+                </item>
+        
+                <item>
+                        <title>it&#39;s a winter wonderland</title>
+                        <description>&lt;div class=&quot;image&quot;&gt;
 &lt;img alt=&quot;snow trees&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/10.21.2013/IMG_4495.jpg&quot; width=&quot;970&quot;/&gt;
 &lt;img alt=&quot;snow&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/10.21.2013/trees_snowbike.jpg&quot; width=&quot;970&quot;/&gt;
 &lt;img alt=&quot;bridge&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/10.21.2013/_DSC2007.jpg&quot; width=&quot;970&quot;/&gt;
@@ -106,14 +105,14 @@
 
 &lt;p&gt;well, bring it on, snow.&lt;/p&gt;
 </description>
-                                <pubDate>Mon, 21 Oct 2013 17:05:06 +0300</pubDate>
-                                <link>http://coatsandkahvi.com//2013/10/21/it%27s-a-winter-wonderland.html</link>
-                                <guid isPermaLink="true">http://coatsandkahvi.com//2013/10/21/it%27s-a-winter-wonderland.html</guid>
-                        </item>
-                
-                        <item>
-                                <title>Tallinn, Estonia</title>
-                                <description>&lt;div class=&quot;image&quot;&gt;
+                        <pubDate>Mon, 21 Oct 2013 17:05:06 +0300</pubDate>
+                        <link>http://coatsandkahvi.com//2013/10/21/it%27s-a-winter-wonderland.html</link>
+                        <guid isPermaLink="true">http://coatsandkahvi.com//2013/10/21/it%27s-a-winter-wonderland.html</guid>
+                </item>
+        
+                <item>
+                        <title>Tallinn, Estonia</title>
+                        <description>&lt;div class=&quot;image&quot;&gt;
 &lt;img alt=&quot;Old Town&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/10.15.2013/_DSC1823.jpg&quot; width=&quot;970&quot;/&gt;
 &lt;img alt=&quot;Old Town&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/10.15.2013/old+town_pink+house.jpg&quot; width=&quot;970&quot;/&gt;
 &lt;img alt=&quot;Old Town&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/10.15.2013/_DSC1712.jpg&quot; width=&quot;970&quot;/&gt;
@@ -137,14 +136,14 @@
 
 &lt;p&gt;P.S. We had our first Tex-Mex meal in over a month right here in Tallinn. Who knew they’d have their very own “Honky Tonk Texas Cantina”! Now I’m craving it again more than ever.&lt;/p&gt;
 </description>
-                                <pubDate>Tue, 15 Oct 2013 17:05:06 +0300</pubDate>
-                                <link>http://coatsandkahvi.com//2013/10/15/Tallinn-Estonia.html</link>
-                                <guid isPermaLink="true">http://coatsandkahvi.com//2013/10/15/Tallinn-Estonia.html</guid>
-                        </item>
-                
-                        <item>
-                                <title>the weekend of bonfires</title>
-                                <description>&lt;div class=&quot;image&quot;&gt;
+                        <pubDate>Tue, 15 Oct 2013 17:05:06 +0300</pubDate>
+                        <link>http://coatsandkahvi.com//2013/10/15/Tallinn-Estonia.html</link>
+                        <guid isPermaLink="true">http://coatsandkahvi.com//2013/10/15/Tallinn-Estonia.html</guid>
+                </item>
+        
+                <item>
+                        <title>the weekend of bonfires</title>
+                        <description>&lt;div class=&quot;image&quot;&gt;
 &lt;img alt=&quot;sunset&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/10.07.2013/_DSC1504.jpg&quot; width=&quot;970&quot;/&gt;
 &lt;img alt=&quot;window&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/10.07.2013/_DSC1529.jpg&quot; width=&quot;970&quot;/&gt;
 &lt;img alt=&quot;candle&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/10.07.2013/_DSC1536.jpg&quot; width=&quot;970&quot;/&gt;
@@ -157,27 +156,27 @@
 
 &lt;p&gt;We had so much fun that we decided to do it again Saturday night!  We trekked over to the other side of town to celebrate a friend’s 30th birthday.  These little hidden treasure’s in Joensuu make you want to bonfire (yes, you can also use it as a verb) every night of the week.  We rented a little cabin by the lake where the only light inside came from the dimly lit fire and the candles sprinkled throughout.   We kept that fire going all night.  Even though that in itself would have been enough, the best part of the evening was getting to share a classic American tradition.  The s’more.  We had the great privilege of demonstrating how to roast a marshmallow (that we smuggled back from Texas) to the perfect golden brown state and transform that lonely marshmallow into a mouthwatering chocolate-graham cracker sandwich.  It was magical.  I’ll just say there were seconds involved. They’re not called s’mores for nothing.&lt;/p&gt;
 </description>
-                                <pubDate>Mon, 07 Oct 2013 14:05:06 +0300</pubDate>
-                                <link>http://coatsandkahvi.com//2013/10/07/the-weekend-of-bonfires.html</link>
-                                <guid isPermaLink="true">http://coatsandkahvi.com//2013/10/07/the-weekend-of-bonfires.html</guid>
-                        </item>
-                
-                        <item>
-                                <title>the cold weather blues</title>
-                                <description>&lt;div class=&quot;image&quot;&gt;
+                        <pubDate>Mon, 07 Oct 2013 14:05:06 +0300</pubDate>
+                        <link>http://coatsandkahvi.com//2013/10/07/the-weekend-of-bonfires.html</link>
+                        <guid isPermaLink="true">http://coatsandkahvi.com//2013/10/07/the-weekend-of-bonfires.html</guid>
+                </item>
+        
+                <item>
+                        <title>the cold weather blues</title>
+                        <description>&lt;div class=&quot;image&quot;&gt;
 &lt;img alt=&quot;cold&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/10.02.2013/IMG_4341.JPG&quot; width=&quot;970&quot;/&gt;
 &lt;/div&gt;
 
 &lt;p&gt;The wait is over.  Winter has arrived.  I don’t know if these people technically consider this winter, but this is definitely winter weather to me.  I had to break out the puffy coat, that’s when you know.  I think I wore it maybe three times last winter.  I always felt like “oh, it’s not that cold, I’m going to look ridiculous in this giant puffy coat.”  I think I want another one now…to wear on top of my current one.  The other day on my way home, it snowed.  Yes, snow flakes in SEPTEMBER!  It was brief, but there was no mistaking the plastering of ice to my face.  Of course at that point I’m already on my bike, gloves and hat on.  I really wanted to pull my giant fur hood on too, but for some reason my hands are incapable of doing anything productive once gloves are on.  They won’t button or zip anything, much less any more complex form of dexterity, like gripping and pulling…at the same time.  I learned this the hard way.  From now on, I will get completely put together before starting out on my trek.  Once I start there’s no stopping.  So I succumbed to the fact the hood is not going to work and continued my journey home.  I don’t know if there was anybody else on the sidewalk, I was in full survival mode.  Head down, gritting my teeth, pedaling as fast as my legs would let me.  (I was making some really serious faces…they help).  The small little inclines felt like Mt. Everest.  I didn’t know if I’d ever make it.  When I did finally get to my apartment, I had to fumble through keys, backpacks and bikes (why is everything more difficult when it’s cold?) before I got to shelter.  The weird thing is, once you’re inside and peel off the several layers of extra clothes, you think – that really wasn’t so bad.  But deep down you know that you’re just fooling yourself…it really is that bad.  Only 5 more months of this, right?&lt;/p&gt;
 </description>
-                                <pubDate>Wed, 02 Oct 2013 14:05:06 +0300</pubDate>
-                                <link>http://coatsandkahvi.com//2013/10/02/the-cold-weather-blues.html</link>
-                                <guid isPermaLink="true">http://coatsandkahvi.com//2013/10/02/the-cold-weather-blues.html</guid>
-                        </item>
-                
-                        <item>
-                                <title>carrot picking</title>
-                                <description>&lt;div class=&quot;image&quot;&gt;
+                        <pubDate>Wed, 02 Oct 2013 14:05:06 +0300</pubDate>
+                        <link>http://coatsandkahvi.com//2013/10/02/the-cold-weather-blues.html</link>
+                        <guid isPermaLink="true">http://coatsandkahvi.com//2013/10/02/the-cold-weather-blues.html</guid>
+                </item>
+        
+                <item>
+                        <title>carrot picking</title>
+                        <description>&lt;div class=&quot;image&quot;&gt;
 &lt;img alt=&quot;farm&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/09.30.2013/_DSC1284.jpg&quot; width=&quot;970&quot;/&gt;
 &lt;img alt=&quot;barn&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/09.30.2013/_DSC1407.jpg&quot; width=&quot;970&quot;/&gt;
 &lt;img alt=&quot;tractor&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/09.30.2013/_DSC1414.jpg&quot; width=&quot;970&quot;/&gt;
@@ -200,14 +199,14 @@ will definitely be back again.  Our hosts, Niina and Pjotr, were such sweet peop
 
 &lt;p&gt;I’m pretty excited to try out some new soups with our bag of veggies that made it home with us.&lt;/p&gt;
 </description>
-                                <pubDate>Mon, 30 Sep 2013 17:05:06 +0300</pubDate>
-                                <link>http://coatsandkahvi.com//2013/09/30/carrot-picking.html</link>
-                                <guid isPermaLink="true">http://coatsandkahvi.com//2013/09/30/carrot-picking.html</guid>
-                        </item>
-                
-                        <item>
-                                <title>making lists</title>
-                                <description>&lt;p&gt;I found this list to fill in online, and seeing how making lists is on my top 10 favorite things to do, I thought I would give it a try.  Lists are so satisfying.&lt;/p&gt;
+                        <pubDate>Mon, 30 Sep 2013 17:05:06 +0300</pubDate>
+                        <link>http://coatsandkahvi.com//2013/09/30/carrot-picking.html</link>
+                        <guid isPermaLink="true">http://coatsandkahvi.com//2013/09/30/carrot-picking.html</guid>
+                </item>
+        
+                <item>
+                        <title>making lists</title>
+                        <description>&lt;p&gt;I found this list to fill in online, and seeing how making lists is on my top 10 favorite things to do, I thought I would give it a try.  Lists are so satisfying.&lt;/p&gt;
 
 &lt;div class=&quot;image&quot;&gt;
 &lt;img alt=&quot;leaves&quot; src=&quot;https://s3.amazonaws.com/coatsandkahvi/09.26.2013/_DSC1159.JPG&quot; width=&quot;970&quot;/&gt;
@@ -243,10 +242,9 @@ Opening: the couch…because it has storage!  Did I mention how awesome it is?
 Giggling: at Scott being afraid of the giant birds.
 Feeling: like November is coming really soon! :)&lt;/p&gt;
 </description>
-                                <pubDate>Thu, 26 Sep 2013 17:05:06 +0300</pubDate>
-                                <link>http://coatsandkahvi.com//2013/09/26/making-lists.html</link>
-                                <guid isPermaLink="true">http://coatsandkahvi.com//2013/09/26/making-lists.html</guid>
-                        </item>
-                
-        </channel>
+                        <pubDate>Thu, 26 Sep 2013 17:05:06 +0300</pubDate>
+                        <link>http://coatsandkahvi.com//2013/09/26/making-lists.html</link>
+                        <guid isPermaLink="true">http://coatsandkahvi.com//2013/09/26/making-lists.html</guid>
+                </item>
+        
 </rss>
