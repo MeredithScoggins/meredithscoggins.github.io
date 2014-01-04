@@ -94,6 +94,11 @@ ul.posts p {
 /*
 /*****************************************************************************/
 
+iframe {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .site {
   font-size: 115%;
   text-align: justify;
