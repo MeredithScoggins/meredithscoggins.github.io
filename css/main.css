@@ -195,6 +195,14 @@ iframe {
   margin-left: auto;
 }
 
+.post img {
+  margin-bottom: 8px;
+}
+
+.post p strong {
+  font-family: 'Oswald', bold;
+}
+
 /* terminal */
 .post pre.terminal {
   border: 1px solid #000;
