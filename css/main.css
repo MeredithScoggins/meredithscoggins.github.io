@@ -67,7 +67,7 @@ ul.posts span.title {
 }
 
 ul.posts span.date {
-  font-size: 80%;
+  float: right;
 }
 
 ul.posts a {
