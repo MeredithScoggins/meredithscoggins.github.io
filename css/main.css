@@ -159,6 +159,13 @@ iframe {
   font-size: 150%;
 }
 
+.post .date {
+  float: right;
+  color: #aaa;
+  font-family: 'Cinzel', serif;  
+  font-size: 80%;
+}
+
 .post .meta {
   font-size: 80%;
 }
