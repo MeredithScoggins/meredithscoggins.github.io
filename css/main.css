@@ -88,6 +88,13 @@ ul.posts p {
   margin-left: auto;
 }
 
+ul.posts p a {
+  font-family: 'Forum', normal;
+  font-size: 15px;
+  color: rgb(173,72,72);
+  text-decoration: none;
+}
+
 /*****************************************************************************/
 /*
 /* Site
