@@ -6,12 +6,19 @@
 
 /* Global Reset */
 
+@font-face {
+  font-family: 'Jennifer-Lynne';
+  src: url('/fonts/Jennifer Lynne.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
-html, body { height: 100%; }
+html, body {
+  height: 100%;
+}
 
 body {
   background-color: #FFF;
@@ -21,17 +28,29 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%;
+}
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+h1 {
+  margin-bottom: 1em;
+}
 
-a         { 
-  color: gray; 
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: black;
   text-decoration: none;
 }
-a:hover   { 
-  color: black; 
+
+a:hover   {
+  color: grey;
+}
+
+div.content {
+  margin-left: 13%;
+  width: 60%;
 }
 
 /*****************************************************************************/
@@ -40,11 +59,16 @@ a:hover   {
 /*
 /*****************************************************************************/
 
+div #home {
+  /*display: inline-block;*/
+  /*padding-top: 125px;*/
+}
+
 ul.posts {
   list-style-type: none;
   font-size: 100%;
   text-align: justify;
-  width: 970px;
+  width: 100%;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
@@ -57,33 +81,14 @@ ul.posts li {
   line-height: 1.75em;
 }
 
-ul.posts span {
-  color: #aaa;
-  font-family: 'Cinzel', serif;  
-}
-
-ul.posts span.title {
-  font-size: 150%;
-}
-
 ul.posts span.date {
   float: right;
-}
-
-ul.posts a {
-  color: #aaa;
-  font-family: 'Cinzel', serif;  
-  font-size: 80%;
-}
-
-ul.posts a:hover {
-  color: black;
 }
 
 ul.posts p {
   font-family: 'Forum', normal;
   color: gray;
-  width: 850px;
+  /*width: 850px;*/
   margin-right: auto;
   margin-left: auto;
 }
@@ -112,32 +117,66 @@ iframe {
   line-height: 1.5em;
 }
 
-.site .header .banner {
-  display: block;
-  margin: auto;
-  margin-top: 0.75em;
-  margin-bottom: 0.5em;
-  font-size: 600%;
-  font-family: 'Sacramento', cursive;
+.site .header .nav {
+  margin-left: 75%;
+  position: absolute;
+  list-style: none;
+  width: 12%;
+  padding-top: 40px;
   text-align: center;
 }
 
-.site .header .nav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+.site .header .nav #homeListItem {
+  padding-bottom: 64px;
+}
+
+.site .header .nav #home {
+  font-family: 'Jennifer-Lynne';
+  /*font-weight: 100;*/
+  font-size: 64px;
+  line-height: 70px;
+  color: black;
 }
 
 .site .header .nav li {
-    display: inline;
+  padding-bottom: 4px;
 }
 
-.site .header .nav a {
-    display: inline-block;
-    padding: 6px;
-    font-family: 'Cinzel', serif;
-    font-size: 105%; 
+.site .header .nav li.pad {
+  padding-top: 12px;
+  margin-top: 1em;
+}
+
+.site .header .nav li img {
+  width: 80%;
+}
+
+.site .header .nav li.follow {
+  display: inline;
+}
+
+.site .header .nav li img.follow {
+  width: 25%;
+  margin-bottom: 8px;
+}
+
+.site .header .nav a, .site .header .nav p{
+    padding-top: 12px;
+    font-family: 'Fjalla One';
+    font-size: 105%;
+    color: rgb(244, 191, 173);
+    text-align: center;
+}
+
+hr {
+  width:100%;
+  height:1px;
+  background: rgb(192, 192, 192);
+  margin-bottom: 5px;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
 }
 
 /*****************************************************************************/
@@ -151,30 +190,30 @@ iframe {
 .post {
   font-size: 100%;
   text-align: justify;
-  width: 970px;
+  width: 100%;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
   padding-bottom: 1em;
 }
 
-.post .title, .post .meta{
-  color: #aaa;
-  font-family: 'Cinzel', serif;  
-}
-
-.post .title {
-  font-size: 150%;
-}
-
-.post .date {
+.post {
   float: right;
-  color: #aaa;
-  font-family: 'Cinzel', serif;  
-  font-size: 80%;
+  color: black;
+  font-family: 'Fjalla One';
+  font-weight: 400;
+  font-size: 10pt;
+}
+.post .title {
+  color: black;
+  font-family: 'Fjalla One';
+  /*font-weight: 400;*/
+  font-size: 12pt;
+  text-transform: uppercase;
 }
 
-.post .meta {
-  font-size: 80%;
+.post span.date {
+  float: right;
+  text-transform: uppercase;
 }
 
 .post pre {
@@ -188,6 +227,7 @@ iframe {
 }
 
 .post li {
+  display: inline;
   list-style-type: none;
 }
 
@@ -203,21 +243,20 @@ iframe {
 
 .post p {
   font-family: 'Forum', normal;
+  font-size: 15px;
   color: gray;
-  width: 850px;
   margin-right: auto;
   margin-left: auto;
 }
 
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
+.post img {
+  width: 100%;
+  margin-bottom: 8px;
 }
 
-.post pre.terminal code {
-  background-color: #333;
+div.post hr {
+  margin-top: 4px;
+  margin-bottom: 16px;
 }
 
 /*****************************************************************************/
@@ -229,21 +268,45 @@ iframe {
 .travel {
   font-size: 115%;
   text-align: justify;
-  width: 970px;
+  width: 100%;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
+}
+
+.travel .travels {
+  margin-top: 40px;
+  padding-top:40px;
+  margin-left: 12%;
+}
+
+.travel .travels div {
+  background: rgb(250,250,250);
+  width: 49%;
+  display: inline-block;
+  margin-right: 0;
+  margin-bottom:2%;
 }
 
 .travel li {
   list-style: none;
   display: inline-block;
-  width: 480px;
-  height: 305px;
+  width: 90%;
+  height: 90%;
+  /*margin: 5%;*/
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
 
-.travel li img.shift {
-  margin-left: 6px
+.travel img {
+  width: 100%;
+  height: 100%;
 }
+
+/*.travel li img.shift {*/
+  /*margin-left: 6px*/
+/*}*/
 
 /*****************************************************************************/
 /*
@@ -254,23 +317,24 @@ iframe {
 .about {
   font-size: 100%;
   text-align: justify;
-  width: 970px;
+  width: 100%;
   margin: 3em auto 2em auto;
+  padding-top: 3em;
   line-height: 1.5em;
   padding-bottom: 1em;
 }
 
-.about p {
+.about div span {
   font-family: 'Forum', normal;
   color: gray;
-  width: 850px;
-  margin-right: auto;
-  margin-left: auto;
+  position: relative;
 }
 
 .about img {
-  width: 100%;
+  width: 60%;
   height: auto;
+  float: left;
+  margin-right: 2em;
 }
 
 /*****************************************************************************/
@@ -287,12 +351,10 @@ iframe {
 -------------------------------------------------- */
 
 .pagination {
-  overflow: hidden; /* clearfix */
   margin-top: 40px;
   font-weight: bold;
   color: #ccc;
   text-align: center;
-  border-top: 1px solid #eee;
 }
 .pagination a,
 .pagination span {
