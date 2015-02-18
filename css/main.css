@@ -142,6 +142,10 @@ iframe {
   padding-bottom: 4px;
 }
 
+.site .header .nav li.about_item {
+  padding-bottom: 24px;
+}
+
 .site .header .nav li.pad {
   padding-top: 12px;
   margin-top: 1em;
@@ -156,7 +160,7 @@ iframe {
 }
 
 .site .header .nav li img.follow {
-  width: 25%;
+  width: 20%;
   margin-bottom: 8px;
 }
 
@@ -166,6 +170,11 @@ iframe {
     font-size: 105%;
     color: rgb(244, 191, 173);
     text-align: center;
+}
+
+.site .header .nav a.subscribe {
+  font-size: 85%;
+  color: rgb(180, 180, 180);
 }
 
 hr {
@@ -280,7 +289,7 @@ div.post hr {
 }
 
 .travel .travels div {
-  background: rgb(250,250,250);
+  /*background: rgb(250,250,250);*/
   width: 49%;
   display: inline-block;
   margin-right: 0;
