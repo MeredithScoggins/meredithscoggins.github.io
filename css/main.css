@@ -86,8 +86,8 @@ ul.posts span.date {
 }
 
 ul.posts p {
-  font-family: 'Forum', normal;
-  color: gray;
+  font-family: 'Lora', serif;
+  color: rgb(60, 59, 61);
   /*width: 850px;*/
   margin-right: auto;
   margin-left: auto;
@@ -139,7 +139,7 @@ iframe {
 }
 
 .site .header .nav li {
-  padding-bottom: 4px;
+  padding-bottom: 12px;
 }
 
 .site .header .nav li.pad {
@@ -248,9 +248,9 @@ hr {
 }
 
 .post p {
-  font-family: 'Forum', normal;
+  font-family: 'Lora', serif;
   font-size: 15px;
-  color: gray;
+  color: rgb(60, 59, 61);
   margin-right: auto;
   margin-left: auto;
 }
@@ -331,8 +331,8 @@ div.post hr {
 }
 
 .about div span {
-  font-family: 'Forum', normal;
-  color: gray;
+  font-family: 'Lora', serif;
+  color: rgb(60, 59, 61);
   position: relative;
 }
 
