@@ -88,7 +88,7 @@ ul.posts span.date {
 ul.posts p {
   font-family: 'Lora', serif;
   color: rgb(60, 59, 61);
-  /*width: 850px;*/
+  font-size: 14px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -249,7 +249,7 @@ hr {
 
 .post p {
   font-family: 'Lora', serif;
-  font-size: 15px;
+  font-size: 14px;
   color: rgb(60, 59, 61);
   margin-right: auto;
   margin-left: auto;
@@ -332,6 +332,7 @@ div.post hr {
 
 .about div span {
   font-family: 'Lora', serif;
+  font-size: 14px;
   color: rgb(60, 59, 61);
   position: relative;
 }
