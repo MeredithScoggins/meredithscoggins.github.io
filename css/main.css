@@ -174,8 +174,25 @@ iframe {
   color: rgb(180, 180, 180);
 }
 
-ul.posts a.read-on {
-  color: rgb(170, 170, 170);
+ul.posts div.read-more {
+  display: block;  
+  background: rgb(40,40,40);
+  text-align: center;
+  height: 39px;
+}
+
+ul.posts a.read-more {  
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  width: 100%;
+  display: block;
+  padding-top: 8px;
+}
+
+ul.posts a.read-more em {
+  font-size: 14px;  
+  font-style: normal;
 }
 
 hr {
