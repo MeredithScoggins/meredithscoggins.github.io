@@ -89,15 +89,15 @@ ul.posts p {
   font-family: 'Lora', serif;
   color: rgb(60, 59, 61);
   font-size: 14px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 4em;
+  margin-left: 4em;
 }
 
 ul.posts p a {
   font-family: 'Forum', normal;
   font-size: 15px;
-  color: rgb(173,72,72);
-  text-decoration: none;
+  color: rgb(81, 163, 244);
+  text-decoration: none;  
 }
 
 /*****************************************************************************/
@@ -176,7 +176,7 @@ iframe {
 
 ul.posts div.read-more {
   display: block;  
-  background: rgb(40,40,40);
+  background: rgb(175, 175, 178);
   text-align: center;
   height: 39px;
 }
@@ -272,8 +272,15 @@ hr {
   font-family: 'Lora', serif;
   font-size: 14px;
   color: rgb(60, 59, 61);
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 4em;
+  margin-left: 4em;
+}
+
+.post p a {
+  font-family: 'Forum', normal;
+  font-size: 15px;
+  color: rgb(81, 163, 244);
+  text-decoration: none;  
 }
 
 .post img {
