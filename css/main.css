@@ -474,6 +474,10 @@ div.post hr {
   position: relative;
 }
 
+.about a {
+  color: rgb(81, 163, 244);
+}
+
 .about img {
   width: 60%;
   height: auto;
