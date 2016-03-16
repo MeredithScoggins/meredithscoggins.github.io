@@ -49,8 +49,9 @@ a:hover   {
 }
 
 div.content {
-  margin-left: 13%;
-  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
 }
 
 /*****************************************************************************/
@@ -69,7 +70,7 @@ ul.posts {
   font-size: 100%;
   text-align: justify;
   width: 100%;
-  margin: 3em auto 2em auto;
+  margin: 1em auto 2em auto;
   line-height: 1.5em;
 }
 
@@ -77,27 +78,120 @@ ul.posts div.post {
   padding-bottom: 1em;
 }
 
-ul.posts li {
-  line-height: 1.75em;
+ul.posts div.post-mini {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  background-color: rgb(241, 241, 241);
 }
 
-ul.posts span.date {
-  float: right;
+ul.posts li {
+  line-height: 1.75em;
 }
 
 ul.posts p {
   font-family: 'Lora', serif;
   color: rgb(60, 59, 61);
   font-size: 14px;
-  margin-right: 4em;
-  margin-left: 4em;
 }
 
 ul.posts p a {
   font-family: 'Forum', normal;
   font-size: 15px;
   color: rgb(81, 163, 244);
-  text-decoration: none;  
+  text-decoration: none;
+}
+
+.post-mini {
+  font-size: 100%;
+  text-align: justify;
+  /*width: 40%;*/
+  /*margin: 3em auto 2em auto;*/
+  line-height: 1.5em;
+  /*padding-bottom: 1em;*/
+  /*float: right;*/
+  /*display: inline;*/
+  width: 48%;
+  display: inline-block;
+  margin-right: 0;
+  /*margin-bottom:2%;*/
+  color: black;
+  font-family: 'Fjalla One';
+  font-weight: 400;
+  font-size: 10pt;
+}
+
+.post-mini p.title a {
+  color: black;
+  font-family: 'Monteserrat';
+  /*font-weight: 400;*/
+  font-size: 12pt;
+  text-transform: uppercase;
+}
+
+.post-mini p.title {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.post-mini p.date {
+  text-transform: uppercase;
+  margin-top: 4px;
+  margin-bottom:
+}
+
+.post-mini div.date-container {
+  width: 50px;
+  position: absolute;
+  margin-left: -70px;
+}
+
+ul.posts .post-mini p {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.post-mini pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post-mini ul, .post-mini ol {
+  margin-left: 1.35em;
+}
+
+.post-mini li {
+  display: inline;
+  list-style-type: none;
+}
+
+.post-mini p {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: rgb(60, 59, 61);
+}
+
+.post-mini p a {
+  font-family: 'Forum', normal;
+  font-size: 15px;
+  color: rgb(81, 163, 244);
+  text-decoration: none;
+}
+
+.post-mini img {
+  width: 100%;
+  margin-bottom: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.post-mini hr {
+  margin-top: 4px;
+  height: 2px;
+}
+
+a#comment {
+  color: rgb(81, 163, 244);
 }
 
 /*****************************************************************************/
@@ -118,80 +212,81 @@ iframe {
 }
 
 .site .header .nav {
-  margin-left: 75%;
-  position: absolute;
   list-style: none;
-  width: 12%;
-  padding-top: 40px;
   text-align: center;
-}
-
-.site .header .nav #homeListItem {
-  padding-bottom: 64px;
-}
-
-.site .header .nav #home {
-  font-family: 'Jennifer-Lynne';
-  /*font-weight: 100;*/
-  font-size: 64px;
-  line-height: 70px;
-  color: black;
+  height: 160px;
+  margin-top: 4em;
 }
 
 .site .header .nav li {
+  display: block;
+  float: left;
+  width: 20%;
+  height: 100%;
+  line-height: 160px;
   padding-bottom: 12px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin: 0;
+  padding: 0;
 }
 
-.site .header .nav li.pad {
-  padding-top: 12px;
-  margin-top: 1em;
-}
-
-.site .header .nav li img {
-  width: 80%;
-}
-
-.site .header .nav li.follow {
-  display: inline;
-  margin-bottom: 8px;  
-}
-
-.site .header .nav li img.follow {
-  width: 20%; 
-}
-
-.site .header .nav a, .site .header .nav p {    
+.site .header .nav a, .site .header .nav p {
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'Fjalla One';
-    font-size: 105%;
-    color: rgb(57, 59, 68);
+    font-family: 'La Belle Aurore';
+    font-size: 160%;
+    color: rgb(158, 158, 158);
     text-align: center;
 }
 
-.site .header .nav a.subscribe {
-  font-size: 85%;
-  color: rgb(180, 180, 180);
+.site .header .top-nav {
+  margin-left: 20%;
+  max-width: 80%;
+}
+
+.site .header .nav li#logo img {
+  width: 80%;
+  margin-left: -90px;
+  margin-top: 24px;
+}
+
+.social-header {
+  position: fixed;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+ul li.social-item {
+  list-style: none;
+}
+
+ul li.social-item img {
+  max-width: 30px;
+  max-height: 30px;
 }
 
 ul.posts div.read-more {
-  display: block;  
-  background: rgb(175, 175, 178);
-  text-align: center;
+  display: block;
+  text-align: left;
   height: 39px;
 }
 
-ul.posts a.read-more {  
-  text-align: center;
+ul.posts a.read-more {
   font-size: 18px;
-  color: white;
+  color: rgb(81, 163, 244);
   width: 100%;
   display: block;
   padding-top: 8px;
+  font-family: 'PT Sans';
+}
+
+ul.posts div.post hr#top {
+  margin-top: 4em;
 }
 
 ul.posts a.read-more em {
-  font-size: 14px;  
+  font-size: 14px;
   font-style: normal;
 }
 
@@ -234,17 +329,31 @@ div.center {
   font-weight: 400;
   font-size: 10pt;
 }
-.post .title {
+.post p.title a {
   color: black;
-  font-family: 'Fjalla One';
+  font-family: 'PT Sans';
   /*font-weight: 400;*/
-  font-size: 12pt;
+  font-size: 18pt;
   text-transform: uppercase;
 }
 
+.post p.title {
+  margin-top: 0;
+}
+
 .post span.date {
-  float: right;
   text-transform: uppercase;
+}
+
+.post div.date-container {
+  width: 50px;
+  position: absolute;
+  margin-left: -70px;
+  margin-top: -4px;
+}
+
+.post div.post-content {
+  /*margin-left: 50px;*/
 }
 
 .post pre {
@@ -276,15 +385,13 @@ div.center {
   font-family: 'Lora', serif;
   font-size: 14px;
   color: rgb(60, 59, 61);
-  margin-right: 4em;
-  margin-left: 4em;
 }
 
 .post p a {
   font-family: 'Forum', normal;
   font-size: 15px;
   color: rgb(81, 163, 244);
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .post img {
@@ -294,7 +401,7 @@ div.center {
 
 div.post hr {
   margin-top: 4px;
-  margin-bottom: 16px;
+  height: 2px;
 }
 
 /*****************************************************************************/
@@ -314,15 +421,19 @@ div.post hr {
 .travel .travels {
   margin-top: 40px;
   padding-top:40px;
-  margin-left: 12%;
 }
 
 .travel .travels div {
-  /*background: rgb(250,250,250);*/
-  width: 49%;
+  width: 32%;
   display: inline-block;
   margin-right: 0;
   margin-bottom:2%;
+}
+
+.travel .travels p {
+  text-align: center;
+  font-family: 'PT Sans';
+  color: rgb(81, 81, 81);
 }
 
 .travel li {
@@ -330,21 +441,15 @@ div.post hr {
   display: inline-block;
   width: 90%;
   height: 90%;
-  /*margin: 5%;*/
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 5%;
 }
 
 .travel img {
   width: 100%;
   height: 100%;
 }
-
-/*.travel li img.shift {*/
-  /*margin-left: 6px*/
-/*}*/
 
 /*****************************************************************************/
 /*
@@ -374,7 +479,40 @@ div.post hr {
   height: auto;
   float: left;
   margin-right: 2em;
+  padding-bottom: 1em;
 }
+
+/*****************************************************************************/
+/*
+/* Archive
+/*
+/*****************************************************************************/
+
+.post-list {
+    padding-top: 1em;
+    margin-left: 0em;
+    margin-bottom: 0em;
+    padding-bottom: 1em;
+    list-style: none;
+}
+
+.post-list .post-teaser {
+  /*max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));*/
+  /*max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));*/
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 40px;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+}
+
+.post-teaser-date {
+    font-size: $small-font-size;
+    color: $grey-color;
+    float: right;
+}
+
 
 /*****************************************************************************/
 /*
@@ -382,8 +520,22 @@ div.post hr {
 /*
 /*****************************************************************************/
 
-.footer {
-  height: 1em;
+footer {
+  bottom: 0;
+}
+
+footer p {
+  color: rgba(200, 200, 200, 0.7);
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer a {
+  color: rgba(200, 200, 200, 0.7);
+  width: 100%;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 /* Pagination
