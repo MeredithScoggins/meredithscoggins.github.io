@@ -460,8 +460,11 @@ div.post hr {
 .about {
   font-size: 100%;
   text-align: justify;
-  width: 100%;
-  margin: 3em auto 2em auto;
+  width: 110%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: -6%;
+  /*margin: 3em auto 2em auto;*/
   padding-top: 3em;
   line-height: 1.5em;
   padding-bottom: 1em;
@@ -479,7 +482,7 @@ div.post hr {
 }
 
 .about img {
-  width: 60%;
+  width: 50%;
   height: auto;
   float: left;
   margin-right: 2em;
