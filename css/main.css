@@ -97,7 +97,7 @@ ul.posts p {
 ul.posts p a {
   font-family: 'Forum', normal;
   font-size: 15px;
-  color: rgb(81, 163, 244);
+  color: rgb(149, 167, 205);
   text-decoration: none;
 }
 
@@ -174,7 +174,7 @@ ul.posts .post-mini p {
 .post-mini p a {
   font-family: 'Forum', normal;
   font-size: 15px;
-  color: rgb(81, 163, 244);
+  color: rgb(149, 167, 205);
   text-decoration: none;
 }
 
@@ -191,7 +191,7 @@ div.post-mini hr {
 }
 
 a#comment {
-  color: rgb(81, 163, 244);
+  color: rgb(149, 167, 205);
 }
 
 /*****************************************************************************/
@@ -274,7 +274,7 @@ ul.posts div.read-more {
 
 ul.posts a.read-more {
   font-size: 18px;
-  color: rgb(81, 163, 244);
+  color: rgb(149, 167, 205);
   width: 100%;
   display: block;
   padding-top: 8px;
@@ -390,7 +390,7 @@ div.center {
 .post p a {
   font-family: 'Forum', normal;
   font-size: 15px;
-  color: rgb(81, 163, 244);
+  color: rgb(149, 167, 205);
   text-decoration: none;
 }
 
@@ -478,7 +478,7 @@ div.post hr {
 }
 
 .about a {
-  color: rgb(81, 163, 244);
+  color: rgb(149, 167, 205);  
 }
 
 .about img {
