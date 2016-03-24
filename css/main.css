@@ -216,6 +216,7 @@ iframe {
   text-align: center;
   height: 160px;
   margin-top: 4em;
+  margin-bottom: 4em;
 }
 
 .site .header .nav li {
@@ -272,7 +273,7 @@ ul.posts div.read-more {
   height: 39px;
 }
 
-ul.posts a.read-more {
+a.read-more {
   font-size: 18px;
   color: rgb(149, 167, 205);
   width: 100%;
@@ -282,7 +283,7 @@ ul.posts a.read-more {
 }
 
 ul.posts div.post hr#top {
-  margin-top: 4em;
+  margin-top: 2em;
 }
 
 ul.posts a.read-more em {
