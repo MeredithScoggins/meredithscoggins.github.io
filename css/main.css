@@ -479,7 +479,7 @@ div.post hr {
 }
 
 .about a {
-  color: rgb(149, 167, 205);  
+  color: rgb(149, 167, 205);
 }
 
 .about img {
@@ -544,6 +544,35 @@ footer a {
   width: 100%;
   font-size: 14px;
   text-decoration: none;
+}
+
+/* Mobile */
+
+@media (max-width: 667px) {
+  .site .header .top-nav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .site .header .nav li#logo {
+    width: 100%;
+  }
+
+  .site .header .nav li#logo img {
+    margin-left: 0;
+  }
+
+  .site .header .nav li {
+    width: 33%;
+  }
+
+  .site .header .nav li#travel {
+    font-size: 60%;
+  }
+
+  .social-header ul {
+    display: none;
+  }
 }
 
 /* Pagination
