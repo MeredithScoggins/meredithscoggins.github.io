@@ -101,10 +101,6 @@ ul.posts p a {
   text-decoration: none;
 }
 
-a#comment {
-  color: rgb(149, 167, 205);
-}
-
 /*****************************************************************************/
 /*
 /* Site
@@ -185,12 +181,12 @@ ul.posts div.read-more {
 }
 
 a.read-more {
-  font-size: 18px;
+/*font-size: 18px;*/
   color: rgb(149, 167, 205);
   width: 100%;
   display: block;
-  padding-top: 8px;
-  font-family: 'PT Sans';
+  padding-top: 8px;  
+  text-align: right;
 }
 
 ul.posts div.post hr#top {
@@ -312,6 +308,54 @@ div.center {
 div.post hr {
   margin-top: 4px;
   height: 2px;
+}
+
+ul#social-list {
+  width: 100%;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+li.social-post-item {
+  width: 33%;
+  display: block;
+  float: left;
+}
+
+li.social-post-item div {
+  margin: auto;
+  width: 60%;
+  vertical-align: middle;
+}
+
+li.social-post-item img {
+  height: 24px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 1em;
+}
+
+li.social-post-item a {
+  height: 100%;
+  color: grey
+}
+
+li.social-post-item a:hover {  
+  color: rgb(149, 167, 205);
+}
+
+.post-content li.social-post-item {
+  width: 50%;
+  display: block;
+  float: left;
+}
+
+.post ul#social-post-list {
+  margin-bottom: 4em;
+}
+
+.post .post-content ul#social-post-list {
+  margin-bottom: 2em;
 }
 
 /*****************************************************************************/
