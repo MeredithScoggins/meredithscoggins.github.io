@@ -245,6 +245,14 @@ div.center {
 
 .post p.title {
   margin-top: 0;
+  margin-bottom: 0;
+}
+
+.post p.subtitle {
+  color: #7E7D7F;
+  font-family: 'PT Sans';
+  font-size: 10pt;
+  margin-top: 0.5em;
 }
 
 .post span.date {
@@ -356,6 +364,19 @@ li.social-post-item a:hover {
 
 .post .post-content ul#social-post-list {
   margin-bottom: 2em;
+}
+
+.post .travel-details {
+  background-color: rgb(241, 241, 241);
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.post .travel-details p {
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;  
 }
 
 /*****************************************************************************/
