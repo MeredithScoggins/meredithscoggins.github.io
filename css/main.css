@@ -379,6 +379,27 @@ li.social-post-item a:hover {
   padding-bottom: 1em;  
 }
 
+.post .recipe-details {
+  background-color: rgb(241, 241, 241);
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.post .recipe-details p {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;  
+}
+
+.post .recipe-details p#top {
+  padding-top: 1em;  
+}
+
+.post .recipe-details p#bottom {  
+  padding-bottom: 1em;
+}
+
 /*****************************************************************************/
 /*
 /* Travel
