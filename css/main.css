@@ -553,16 +553,30 @@ footer a {
     margin-right: auto;
   }
 
+  .site .header .nav li {  
+    height: 24px;
+  }
+
   .site .header .nav li#logo {
+    height: 160px;
     width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .site .header .nav li#logo a {
+    display: block;    
+    height: 80%;
   }
 
   .site .header .nav li#logo img {
-    margin-left: 0;
+    margin-top: 0;
+    margin-left: 0;    
+    height: 100%;
   }
 
-  .site .header .nav li {
+  .site .header .nav li {    
     width: 33%;
+    line-height: 24px;
   }
 
   .social-header ul {
@@ -588,6 +602,22 @@ footer a {
   }
 
   .post div.date-container hr#bottom-bar {
+    display: block;
+  }
+
+  .about img {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about div {
+    max-width: 80%;
+    margin-left: 10%;
+  }
+
+  .about div span {
     display: block;
   }
 }
